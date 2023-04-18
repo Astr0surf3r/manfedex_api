@@ -43,10 +43,14 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # New FedEx library 
-gem 'fedexws', '0.0.4'
+gem 'fedexws', '0.0.5'
 
 # ENV variable system
 gem 'figaro'
 
-# 
+# FIX GEM ERROR
 gem 'rspec'
+
+# XML -> JSON
+gem 'json'
+gem 'xml-to-json' # MAYBE NEED TO REMOVE
